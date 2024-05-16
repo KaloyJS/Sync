@@ -9,7 +9,7 @@ namespace ProvisionDeprovision
     class Program
     {
         private static string localConnectionString = "Server=localhost;Database=DigitalJudge_20231204_1032EST;Trusted_Connection=True;TrustServerCertificate=True";
-        private static string cloudConnectionString = "Server=mocato-sqls-stride-dev.database.windows.net;Database=carlo-test-mocato-db-stride-dev_20240427_1013ET;User Id=servermin;Password=123devP@ss!@";
+        private static string cloudConnectionString = "Server=mocato-sqls-stride-dev.database.windows.net;Database=carlo-test-mocato-db-stride-dev_20240427_1013ET;User Id=servermin;";
         //private static string cloudConnectionString = "Server=localhost;Database=ServerB;Trusted_Connection=True;TrustServerCertificate=True";
 
         private static string serverConn = localConnectionString;
